@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.heading{
+    text-align: center;
+    background-color: teal;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    color: black;
+}
+.logo{
+    flex: 2;
+    margin-left: 20px;
+}
+.logo .link{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    flex: 1;
+}
+.nav ul{
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.nav ul li .link{
+    text-decoration: none;
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.landing{
+    margin-top: 3px;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background: url('./components/layout/learn.JPG') no-repeat center;
+    background-size: cover;
+    height: 90vh;
+    color: white;
+}
+
+
+
+/* sidebar */
+
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: #042331;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #006633;
+    user-select: none;
+}
+
+.sidebar ul .sLink{
+   display: block;
+   height: 100%;
+   width: 100%;
+   line-height: 65px;
+   font-size: 20px;
+   color: white;
+   padding-left: 40px;
+   box-sizing: border-box;
+   border-top: 1px solid rgba(255, 255, 255, .1);
+   border-bottom: 1px solid black;
+   transition: .4s;
+   text-decoration: none;
+}
+
+.sidebar ul li{
+    list-style: none;
+}
+
+.sidebar ul li:hover .sLink{
+  padding-left: 50px;
+}
+
+.sidebar ul .sLink i{
+    margin-right: 16px;
+}
+
+.side-img{
+    margin-left: 250px;
+    background: url(./components/layout/book.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    font-size: 60px;
+     padding: 20px;
+}
+
+/* login page*/
+.login {
+    overflow: hidden;
+    background-color: white;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;   
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    float: center;
+    margin: auto;
+    width: 40%;
+}
+input {
+      display: block;
+      border-radius: 5px;
+      font-size: 16px;
+      background: white;
+      width: 100%;
+      border: 1px solid black;
+      padding: 10px 10px;
+      margin: 15px -10px;
+    }
+
+button{
+    padding: 7px;
+    width: 70px;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#tables {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tables td, #tables th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tables tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tables tr:hover {background-color: #ddd;}
+  
+  #tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .link-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .link-button{
+    padding: 7px;
+    width: 70px;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+
+ 
+
+  .single-course{
+      display: flex;
+  }
+
+  .course-details{
+      flex: 1;
+  }
+
+  .course-details ul{
+      list-style: none;
+      padding: 5px;
+  }
+  .course-details ul li{
+      margin: 5px;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      padding: 10px;
+  }
+  .student-details{
+      flex: 2;
+      margin: 5px;
+  }
+
+  .teacher-details{
+      flex: 1;
+      margin: 10px;
+      text-align: center;
+  }
+  .teacher-details ul li{
+      list-style: none;
+      padding: 10px;
+      border: 2px solid black;
+      margin-top: 2px;
+      border-radius: 5px;
+  }
+
+
+
+
